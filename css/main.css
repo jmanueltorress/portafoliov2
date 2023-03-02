@@ -246,6 +246,31 @@ li a:hover {
     text-decoration: underline;
     
 }
+.table-skills{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px;
+	padding: 2%;
+    background-color:#03c9876b;
+
+}
+.img-tb{
+    background-color: rgb(0, 99, 248);
+	width: 30px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}  
+.sub-title-B {
+	
+	font-size: 25px;
+	color:var(--secundario);
+	text-align: center;
+
+} 
 
 /* estilos contacto */
 #img-ldn,
