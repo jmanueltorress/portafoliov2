@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon"> <!-- logo-page -->
+    <title>ManuelDev</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">MANUEL_ DEV</h1>
+        <nav>        
+            <ul>
+                <li><a href="./index.html">SOBRE MI</a> </li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./proyectos.html">PROYECTOS</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <h4 class="subt-proy">Da clic en l a imagen para ver descripción</h4>
+        <section class="wrapper">
+            <div class="card">
+                <img id="img-card" src="./assets/img/encriptext.png" alt="proyecto 1">
+            <div>
+                <h5 id="desc-card">Encriptador de texto </h5>
+            </div>
+            </div>
+            <div class="card">
+                <img id="img-card" src="./assets/img/calculad.png" alt="proyecto 2">
+                <div>
+                    <h5 id="desc-card">Calculadora</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img id="img-card" src="./assets/img/googleclon.png" alt="proyecto 3">
+                <div>
+                    <h5 id="desc-card">Clon de Google</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img id="img-card" src="./assets/img/portfv1.png" alt="proyecto 4">
+                <div>
+                    <h5 id="desc-card">Portafolio V.1</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img id="img-card" src="./assets/img/project.jpg" alt="proyecto 5">
+                <div>
+                    <h5 id="desc-card">Other</h5>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        
+        <h3 id="txt-final">©2023 Copyright</h3>
+    
+    
+        <h3 id="txt-final-2">by Manuel_Dev</h3>
+    
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            $(".subt-proy").fadeOut(1500);
+        },3000);
+     
+        
+    });
+    </script>
+</body>
+
+</html>

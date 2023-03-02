@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Anton&family=Nunito:wght@200;1000&family=Tilt+Warp&display=swap');
+
+:root {
+    --principal: #13005A;
+    --secundario: #03C988;
+    --terciario: #00337C;
+    --txtBlanco: #fff;
+    --txtAzul: #00337C;
+    --txtSpan: #03C988;
+
+    --fontPrincipal: 'Tilt Warp', cursive;
+    --fontSecundario: 'Nunito', sans-serif;
+}
+
+* {
+    font-family: var(--fontPrincipal);
+    background-color: var(--principal);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    margin-top: 345px;
+    width: 98%;
+    height: 5em;
+    background-color: var(--secundario);
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    
+}
+.card-conainer-1{
+    margin: 20px;
+    padding: 20px 10px 100px 30px;
+    background-color: var(--terciario);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#txt-final {
+    justify-content: space-between;
+    align-content: center;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    color: var(--txtAzul);
+    text-align: center;
+    background-color: var(--secundario);
+    
+}
+#txt-final-2{
+    justify-content: space-between;
+    align-content: center;
+    text-align: right;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 70%;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+    color: var(--txtAzul);
+    text-align: center;
+    background-color: var(--secundario);
+    
+}
+
+/* estilos index */
+header {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.titulo {
+    color: var(--secundario);
+    padding: 20px;
+    padding-left: 100px;
+    position: relative;
+    text-align: left;
+}
+
+nav {
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    position: relative;
+    text-decoration: none;
+
+
+
+}
+
+ul li {
+    padding: 3px;
+    margin: 4px;
+    list-style: none;
+    box-sizing: border-box;
+    display: inline;
+
+}
+
+
+li a {
+    text-decoration: none;
+    background-color: var(--secundario);
+    border-radius: 5px;
+    padding: 7px;
+    color: var(--txtAzul);
+
+
+}
+li a:hover {
+    text-decoration: none;
+    background-color:var(--terciario);
+    color: var(--secundario);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.4s;
+
+
+}
+
+
+.card-about {
+    margin: 20px;
+    padding: 20px 10px 100px 30px;
+    background-color: var(--terciario);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    background-color: var(--terciario);
+
+    color: var(--secundario);
+    font-weight: 100;
+    text-align: right;
+    justify-content: space-between;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    border: 10px;
+    padding-right: 120px;
+
+
+}
+
+.section-card {
+    display: flex;
+    background-color: var(--terciario);
+    padding-left: 90px;
+    margin: 10px;
+    padding-right: 5px;
+    border: 1px;
+    width: 873px;
+    height: 228px;
+
+}
+
+#descript {
+    text-align: justify;
+    background-color: var(--terciario);
+    color: var(--txtBlanco);
+    font-size: 17pt;
+    display: inline;
+  
+}
+
+#descript span {
+    background-color: var(--terciario);
+    font-size: 18pt;
+    color: var(--txtSpan);
+    white-space: nowrap;
+    border-right: 4px solid;
+    display: block;
+    width: 31ch;
+
+    animation: typing 2.2s steps(31), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+}
+
+#img-perfil {
+
+    border-radius: 50%;
+    height: 200px;
+
+
+}
+
+#cont-img-perfil {
+    background-color: var(--terciario);
+    display: inline;
+    padding-right: 10%;
+}
+#link-cv{
+    display: flex;
+    background-color:#68a5fa;
+    border-radius: 4px;
+    margin-top:2%;
+    width: 30%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#link-cv a{
+    display: flex;
+    background-color:#68a5fa;
+    border-radius: 4px;
+    color: var(--principal);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#link-cv a:hover{
+    display: flex;
+    background-color:#68a5fa;
+    border-radius: 4px;
+    width: 40%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: underline;
+    
+}
+
+/* estilos contacto */
+#img-ldn,
+#img-twi,
+#img-fb {
+    width: 60px;
+    height: 58px;
+    border-radius: 10px;
+}
+.buttons-i a{
+    background-color: var(--terciario);
+    color: var(--txtBlanco);
+    text-decoration: none;
+    display: block;
+}
+.buttons-i a:hover{
+    color: var(--secundario);
+    text-decoration: none;
+    display: block;
+}
+.buttons-i,#btns-c {
+    border: none;
+    background-color: var(--terciario);
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.card-conainer-1-2{
+    margin: 20px;
+    padding: 20px 10px 100px 30px;
+    background-color: var(--terciario);
+    border-radius: 10px;
+    display: flex;
+}
+
+#img-git{
+    width: 60px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: var(--terciario);
+    margin: 40px;
+    padding-top: 205px;
+}
+#btn-git{
+    width: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: centers;
+    background-color: var(--terciario);
+    
+
+}
+.buttons-d{
+    background-color: var(--terciario);
+    margin: 20px 20px 20px 20px;
+}
+.buttons-d a{
+    background-color: var(--terciario);
+    color: var(--txtBlanco);
+    text-decoration: none;
+    display: inline;
+    margin:0;
+    padding-left: 40px;
+}
+.buttons-d a:hover{
+    color: var(--secundario);
+    text-decoration: none;
+    display: block;
+}
+.avatar{
+    justify-content:center;
+    align-content: center;
+    display:inline;
+    margin: 20px;
+    padding: 2%;
+    width: 300px;
+    background-color: var(--terciario);
+}
+#img-avatar{
+    width: 400px;
+    background-color: var(--terciario);
+    padding: 0px;
+}
+
+/*Estilos proyectos*/
+.wrapper{
+    padding-top: 25px;
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-bottom: 1%;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	border-radius: 10px;
+	background-color: #08024d95;
+	margin: 40px;
+	width: 87%;
+}
+.card{
+    align-content: center;
+	justify-content: center;
+	transition: box-shadow .3s;
+	margin: 30px;
+	border-radius: 10px;
+	border: 1px solid rgb(255, 255, 255);
+	padding: 0;
+	box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+	transform: perspective(500px) rotateY(0deg);
+	width: 300px;
+	height: 230px;
+}
+
+.card img {
+	display: flex;
+	width: 300px;
+	height: 230px;
+	border-radius: 10px;
+}
+.subt-proy{
+    color:var(--txtBlanco);
+    margin: 10px;
+    padding-left: 35px;
+    display: flex;
+}
+#desc-card{
+    color: var(--txtAzul);
+    font-size: 11pt;
+    text-align: right;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 3.5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: auto;
+}
