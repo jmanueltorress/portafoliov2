@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Anton&family=Nunito:wght@200;1000&family=Tilt+Warp&display=swap');
 
 :root {
-    --principal: #13005A;
-    --secundario: #03C988;
-    --terciario: #00337C;
+    --principal: #ffffff;
+    --secundario: #000000;
+    --terciario: #03C988;
     --txtBlanco: #fff;
-    --txtAzul: #00337C;
-    --txtSpan: #03C988;
+    --txtAzul: #fff;
+    --txtSpan: #fff;
 
     --fontPrincipal: 'Tilt Warp', cursive;
     --fontSecundario: 'Nunito', sans-serif;
@@ -34,7 +34,8 @@ footer {
     
 }
 .card-conainer-1{
-    margin: 20px;
+    margin: 15px 25px 15px 130px;
+    
     padding: 20px 10px 100px 30px;
     background-color: var(--terciario);
     border-radius: 10px;
@@ -84,6 +85,15 @@ header {
     padding-left: 100px;
     position: relative;
     text-align: left;
+    
+}
+.titulo a{
+    color: var(--secundario);
+    text-decoration: none;
+}
+.titulo span{
+    color: var(--terciario);
+    
 }
 
 nav {
@@ -152,6 +162,25 @@ li a:hover {
 
 
 }
+.slider {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--terciario);
+  }
+  
+  .slider-container {
+    display: flex;
+    transition: transform 1.5s ease;
+    background-color: var(--terciario);
+  }
+  
+  
+  .slider-item {
+  
+    flex: 50%; /* Ajusta el ancho de las imágenes según tus necesidades */
+    padding: 20px;
+    margin: 35px;
+  }
 
 .section-card {
     display: flex;
@@ -257,7 +286,7 @@ li a:hover {
 
 }
 .img-tbl{
-    background-color: rgb(0, 99, 248);
+    background-color: var(--secundario);
 	width: 30px;
 	border-radius: 50%;
 	display: inline-flex;
@@ -305,7 +334,8 @@ li a:hover {
     padding: 10px;
 }
 .card-conainer-1-2{
-    margin: 20px;
+    margin: 15px 25px 15px 130px;
+    
     padding: 20px 10px 100px 30px;
     background-color: var(--terciario);
     border-radius: 10px;
@@ -375,7 +405,7 @@ li a:hover {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px;
 	border-radius: 10px;
-	background-color: #08024d95;
+	background-color: var(--terciario);
 	margin: 40px;
 	width: 87%;
 }
@@ -400,7 +430,7 @@ li a:hover {
 	border-radius: 10px;
 }
 .subt-proy{
-    color:var(--txtBlanco);
+    color:var(--secundario);
     margin: 10px;
     padding-left: 35px;
     display: flex;
@@ -409,7 +439,7 @@ li a:hover {
     color: var(--txtAzul);
     font-size: 11pt;
     text-align: right;
-    background-color: #fff;
+    background-color: var(--secundario);
     border-radius: 5px;
     margin-top: 3.5px;
     margin-bottom: 10px;
